@@ -1,0 +1,16 @@
+<div class="text-field">
+  <%= form.label :username, placeholder: "Username"%>
+  <%= form.text_field :username, type: 'username' %>
+</div>
+
+<div class="text-field">
+  <%= form.label :email, placeholder:"Email" %>
+  <%= form.text_field :email, type: 'email' %>
+</div>
+
+<div class="password-field">
+  <%= form.label :password, placeholder:"Password" %>
+  <%= form.password_field :password %>
+</div>
+
+<%= link_to "Sign in with Facebook", "/auth/facebook" %>

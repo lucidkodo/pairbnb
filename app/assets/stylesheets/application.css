@@ -17,3 +17,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "app.scss";
+
+* {
+	font-family: "Roboto";
+	}
+
+header {
+	font-family: "Roboto Slab";
+}
